@@ -1,0 +1,5 @@
+Programming language: Python
+
+Required packages: test.csv, train.csv
+
+How to run: There are two jupyter notebook, one is Preprocessing.ipynb and it does feature selection and transformation. It stores the preprocessed data as "train_features.csv" and "test_features.csv". After that, run Regression.ipynb. It reads the preprocessed data ("train_features.csv" and "test_features.csv") to do modeling. Finally, it saves the result of prediction to "submission.csv"
